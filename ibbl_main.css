@@ -1,0 +1,98 @@
+
+/* CSS Document */
+
+
+body {
+background: url("image/inani1.jpg") scroll 0 0 ;
+background-repeat:repeat-y;
+background-position: center bottom;
+background-size:62%;
+text-align:justify;
+font-family:Arial,Verdana,sans-serif,"Lucida Grande",Helvetica;
+font-size: 11px; 
+}
+
+.divClear{
+clear:both;
+}
+
+#test{
+position:fixed;
+margin:20px;
+background-image:unset;
+float: left;
+align: center;
+}
+
+
+h3{
+    max-width: 550px;
+    padding:2px;
+    margin-left:400px;
+    margin-top:150px;
+    display: block;
+    border: 2px solid blue ;
+    align:center
+}
+
+
+.info{
+max-width: 550px;
+margin-left:400px;
+margin-top:0px;
+display: block;
+border: 2px solid blue;
+align:center
+
+}
+
+.info .cmts {
+    height:50px;
+    width:430;
+    border: 1px solid blue;
+    font-size: 15px;
+    } 
+    
+.othr{
+    width:430;
+   
+}
+.pn{
+ 
+    width: 330px;
+}
+.sbmt{
+position: relative;
+    left: 470px;
+}
+
+.flex_all{
+display: flex;
+margin-left:257px;
+width:837px;
+height: inherit;
+flex-flow: row wrap;
+align-items:flex-start;
+margin: 90 auto;
+margin-bottom: 0px;
+
+
+
+}
+
+.photo{
+    border: 1px solid blue;
+    width:276px;
+    height: 184px;
+    margin: 1px;
+
+}
+.banner{
+    width: 836px;
+    position: fixed;
+    margin: -8 auto;
+    position:;
+    left: 255px;
+    background-color: #E1F1FE;
+    
+}
